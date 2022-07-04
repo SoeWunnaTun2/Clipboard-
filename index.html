@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce product main page</title>
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="./images/logo.svg" class=" me-4" alt="">
+              </a>
+              <div class="collapse navbar-collapse justify-content-between mt-2 fw-light" style="font-family: 'Kumbh Sans', sans-serif;">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-muted" aria-current="page" href="#">Collections</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-muted" href="#">Men</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-muted" href="#">Women</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-muted">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-muted">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <img src="./images/icon-cart.svg" class=" me-5" alt="">
+                <img src="./images/image-avatar.png" width="45px" height="45px" alt="">
+              </div>
+            </div>
+        </nav>
+        <hr class=" container">
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="row justify-content-center mt-4">
+                <div class="col-5">
+                    <img src="./images/image-product-1.jpg" class=" w-100 rounded mb-4" alt="">
+                    <img src="./images/image-product-1-thumbnail.jpg" width="69px" height="69px" class=" rounded me-5" alt="">
+                    <img src="./images/image-product-2-thumbnail.jpg" width="69px" height="69px" class=" rounded me-5" alt="">
+                    <img src="./images/image-product-3-thumbnail.jpg" width="69px" height="69px" class=" rounded me-5" alt="">
+                    <img src="./images/image-product-4-thumbnail.jpg" width="69px" height="69px" class=" rounded" alt="">
+
+                </div>
+                <div class="col-1"></div>
+                <div class="col-6" style="font-family: 'Kumbh Sans', sans-serif;">
+                    <p class=" text-uppercase text-danger fw-bold mt-5">sneaker company</p>
+                    <p class=" fw-bold display-5 text-capitalize mb-0 mb-4">fall limited edition <br> sneakers</p>
+                    <p class=" text-muted mb-0 mb-4">
+                        These low-profile sneakers are your perfect casual wear <br> companion. Featuring a durable rubber outer sole, they'll <br> withstand everything the weather can offer.
+                    </p>
+                    <span class=" h3 fw-bold me-3">$125.00</span>
+                    <span class=" px-2 py-1 rounded text-danger fw-bold bg-danger bg-opacity-25">50%</span>
+                    <p class=" text-decoration-line-through text-muted mb-0 mb-4">$250.00</p>
+
+                    <div class="btn-group me-3" role="group" aria-label="Button group with nested dropdown">
+                        <button type="button" class="btn btn-light">
+                            <img src="./images/icon-minus.svg" alt="">
+                        </button>
+                        <button type="button" class="btn btn-light fw-bold">0</button>
+                        <button id="btnGroupDrop1" type="button" class="btn btn-light" aria-expanded="false">
+                            <img src="./images/icon-plus.svg" alt="">
+                        </button>
+                    </div>
+
+                    <a href="#" class=" btn btn-danger text-white shadow py-2 px-5 fw-bold">
+                        <img src="./images/icon-cart.svg" class=" me-2" alt=""> Add to cart
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
